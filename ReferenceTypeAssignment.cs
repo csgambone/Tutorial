@@ -40,6 +40,7 @@ class Program3
         Console.WriteLine("joe = " + joe.Name);
         Console.WriteLine("bob = " + bob.Name);
 
+        // b
         Console.ReadKey();
     }
 }
