@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5EEAF2B5-5542-4663-8854-4E89C16D9D08}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tutorial</RootNamespace>
+    <AssemblyName>Tutorial</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AliasDirective.cs" />
+    <Compile Include="AnonymousMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Array.cs" />
+    <Compile Include="AttributeParamsDemo.cs" />
+    <Compile Include="AttributeTargetDemo.cs" />
+    <Compile Include="BankAccountPrivate.cs" />
+    <Compile Include="BankAccountProtected.cs" />
+    <Compile Include="BankAccountPublic.cs" />
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="BaseTalk.cs" />
+    <Compile Include="BasicAttributeDemo.cs" />
+    <Compile Include="Binary.cs" />
+    <Compile Include="Boolean.cs" />
+    <Compile Include="CastOperator.cs" />
+    <Compile Include="CheckingAccount.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Classes.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Customer2.cs" />
+    <Compile Include="Customer3.cs" />
+    <Compile Include="Customer4.cs" />
+    <Compile Include="Customer5.cs" />
+    <Compile Include="DoLoop.cs" />
+    <Compile Include="DrawDemo.cs" />
+    <Compile Include="DrawingObject.cs" />
+    <Compile Include="EnumBaseAndMembers.cs" />
+    <Compile Include="EnumSwitch.cs" />
+    <Compile Include="EnumTricks.cs" />
+    <Compile Include="Eventdemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinallyDemo.cs" />
+    <Compile Include="ForEachLoop.cs" />
+    <Compile Include="ForLoop.cs" />
+    <Compile Include="Generic.cs" />
+    <Compile Include="Generic2.cs" />
+    <Compile Include="IfSelection.cs" />
+    <Compile Include="InteractiveWelcome.cs" />
+    <Compile Include="InterfaceImplementer.cs" />
+    <Compile Include="InterfaceInheritance.cs" />
+    <Compile Include="IntIndexer.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MethodParams.cs" />
+    <Compile Include="MyInterface.cs" />
+    <Compile Include="NamedWelcome.cs" />
+    <Compile Include="NamespaceCall.cs" />
+    <Compile Include="NamespaceCSS.cs" />
+    <Compile Include="NestedNamespace1.cs" />
+    <Compile Include="NestedNamespace2.cs" />
+    <Compile Include="OneMethod.cs" />
+    <Compile Include="OvrIndexer.cs" />
+    <Compile Include="ReferenceTypeAssignment.cs" />
+    <Compile Include="SavingsAccount.cs" />
+    <Compile Include="SimpleDelegate.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="Struct.cs" />
+    <Compile Include="Struct2.cs" />
+    <Compile Include="Struct3.cs" />
+    <Compile Include="SwitchSelection.cs" />
+    <Compile Include="tryCatchDemo.cs" />
+    <Compile Include="Unary.cs" />
+    <Compile Include="UsingDirective.cs" />
+    <Compile Include="ValueTypeAssignment.cs" />
+    <Compile Include="Welcome.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WhileLoop.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
